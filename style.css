@@ -36,13 +36,33 @@ a:hover {
 #jasen {
     font-size: 30px;
     padding-left: 0px;
-    padding-right: 200px;
+    padding-right: 210px;
 }
 
 .navAlt {
     padding: 20px;
 }
 
-.p1 { 
+main { 
     margin-top: 100px;
+}
+
+p {
+    font-size: 20px;
+}
+
+#seaSilk:hover {
+    color:rgb(215, 185, 18)
+}
+
+.seaSilkActive {
+    color:rgb(215, 185, 18)
+}
+
+#gaymers:hover {
+    font-family: Copperplate, Papyrus, fantasy;
+}
+
+.gaymersActive {
+    font-family: Copperplate, Papyrus, fantasy;
 }
