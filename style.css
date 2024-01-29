@@ -43,20 +43,16 @@ a:hover {
     padding: 20px;
 }
 
-main { 
-    margin-top: 100px;
-}
-
 p {
     font-size: 20px;
 }
 
 #seaSilk:hover {
-    color:rgb(215, 185, 18)
+    color:rgb(132, 113, 4)
 }
 
 .seaSilkActive {
-    color:rgb(215, 185, 18)
+    color:rgb(132, 113, 4)
 }
 
 #gaymers:hover {
