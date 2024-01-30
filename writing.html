@@ -2,6 +2,52 @@
 <html lang="en">
     <head>
         <link rel="stylesheet" href="style.css" />
+        <style>
+            .stanza {
+                line-height: 0px; 
+                padding-bottom: 20px;
+            }
+            .writing {
+                font-style: italic; 
+                letter-spacing: 0;
+                color: rgb(255, 255, 255); 
+                font-weight: bold;
+                padding-left: 10px;
+                position: absolute; 
+                bottom: 0px;
+            }
+
+            #gaymersLink:hover {
+                font-family: Copperplate, Papyrus, fantasy;
+                text-decoration: underline;
+                text-decoration-thickness: 1px;
+            }
+
+            .gaymersLinkActive {
+                font-family: Copperplate, Papyrus, fantasy;
+                text-decoration: underline;
+                text-decoration-thickness: 1px; 
+            }
+
+            .stageDirection {
+                display: block;
+                margin-left: 50px;
+                font-style: italic;
+                line-height: 0px;
+            }
+
+            .charName {
+                text-align: center;
+                font-weight: bold;
+
+            }
+
+            .lines {
+                line-height: 0px;
+                padding-bottom: 1px;
+            }
+
+        </style>
         <title>My Personal Website</title>
     </head>
     <body>
@@ -20,14 +66,135 @@
        <main style="padding-top: 270px; margin-bottom: 10px;">
             <h2><a id="seaSilk" onclick="revealSeaSilk(); activateSeaSilk()" style="margin-left: 150px;">Sea Silk</a></h2>
                 <p style="margin-left: 65px; font-size: 14px;">by Jasen Miyamoto and Jason Sill</p>
-                <div id="seaSilkExcerpt" style="display:none">
-                    <p> Sea Silk is a "play with music" encompassing a multi-generational narrative following the lives of the last three women in the world capable of weaving the eponymous legendary textile, "Sea Silk".</p>
-                    <p>Book by Jasen Miyamoto, Music and Lyrics by Jason Sill.</p>
+                <div id="seaSilkExcerpt" style="display:none;">
+                    <p> Sea Silk is a "play with music" encompassing a multi-generational narrative following the lives of the last three women in the world capable of weaving the eponymous legendary textile, "Sea Silk". Full of whirlwind romance, heartache, tradition in the face of modernization, and the bonds of family, Sea Silk asks the question: "Why do we tell stories and who are they for?"</p>
+                        <div class="intro" style="position: relative;">
+                            <img src="./docs/assets/images/GBmbB2LWcAA1TR8.jpeg" alt="Waves made of ebroidered silk" title="Morning Sea (1915) Hashio Kiyoshi" style="opacity: 0.5; width: 100%; height: 1025px; object-fit: cover;">
+                            <div class="writing">
+                                <p style="font-size: 24px;">there are some stories that grip us like a riptide</p>
+                                <p style="padding-left: 200px;font-size: 24px;">that send us floundering head over heart, heart over head
+                                <p style="font-size: 24px;">stories of magnitudes unimaginable, with timbre like thunder</p>  
+                                <p style="padding-left: 250px; font-size: 24px;">that leave us dazed and bruised and hurt and healing</p>
+                                <p style="padding-left: 600px; font-size: 24px;">for some time after</p>
+                                <div class="stanza" style="font-size: 24px;">
+                                    <p style="font-size: 24px;">but the quiet stories</p>
+                                    <p style="font-size: 24px;">the ones told</p>
+                                    <p style="font-size: 24px;">whispered</p>
+                                    <p style="font-size: 24px;">in the dark</p>
+                                    <p style="font-size: 24px;">over the course</p>
+                                    <p style="font-size: 24px;">of many days</p>
+                                </div>  
+                                <div class="stanza">
+                                    <p style="font-size: 24px;">the ones that</p>
+                                    <p style="font-size: 24px;">leave your heart</p>
+                                    <p style="font-size: 24px;">not ravaged</p>
+                                    <p style="font-size: 24px;">and bleeding</p>
+                                    <p style="font-size: 24px;">but full of tiny</p>
+                                    <p style="font-size: 24px;">pinpricks</p>
+                                </div>
+                                <div class="stanza">
+                                    <p style="font-size: 24px;">the ones that</p>
+                                    <p style="font-size: 24px;">value</p>
+                                    <p style="font-size: 24px;">small jokes</p>
+                                    <p style="font-size: 24px;">and</p>
+                                    <p style="font-size: 24px;">pockets</p>
+                                    <p style="font-size: 24px;">of air</p>
+                                </div>
+                                <div class="stanza1" style="line-height: 0;">
+                                    <p style="font-size: 24px;">stories</p>
+                                    <p style="font-size: 24px;">inextricable</p>
+                                    <p style="font-size: 24px;">from the</p>
+                                    <p style="font-size: 24px;">musicality</p>
+                                    <p style="font-size: 24px;">of the</p>
+                                    <p style="font-size: 24px;">world</p>
+                                </div>
+                                <p style="padding-left: 620px; font-size: 24px;">those are the stories I fall in love with</em></p>
+                            </div>
+                        </div>
+                    <p style="text-align: right; font-size: 10px;">Image Source: <em>Morning Sea</em> (1915), Hashio Kiyoshi</p>
+                    <p style="padding-bottom: 50px;">Book by Jasen Miyamoto, Music and Lyrics by Jason Sill.</p>
                 </div>
             <h2><a id="gaymers" onclick="revealGaymers(); activateGaymers()" style="margin-left: 450px;">[Untitled Video Game Musical]</a></h2>
                 <p style="margin-left: 495px; font-size: 14px;">by Jasen Miyamoto and Hannah Tobias</p>
-                <div id="gaymersExcerpt" style="display:none">
+                <div id="gaymersDesc" style="display:none">
+                    <img src="https://i0.wp.com/scifanime.com/wp-content/uploads/2013/04/DYdqBOQ.gif" style="width: 100%;">
                     <p> [Untitled Video Game Musical] is an original musical that, through the lens of video games, explores the lives, relationships, and the act of healing between four interconnected characters as they go through trauma and tumult.</p>
+                    <p><a id="gaymersLink" onclick="revealGaymersExcerpt(); activateGaymersLink()">Read Exerpt Here</a></p>
+                        <div id="gaymersExcerpt" style="display: none; letter-spacing: 0;">
+                            <img src="https://i0.wp.com/scifanime.com/wp-content/uploads/2013/04/NW0mK39.gif" style="width: 100%;">
+                            <p class="stageDirection">(GABE is in his room, maybe)</p>
+                            <p class="stageDirection">(A towering DRAGON holds saran wrap and attempts to make GABE a shirt)</p>
+                            <p class="stageDirection">(GABE has his arms over his head)</p>
+                            <p class="charName">DRAGON</p>
+                            <p>So?</p>
+                            <p class="charName">GABE</p>
+                            <p>You can do better than that</p>
+                            <p class="charName">DRAGON</p>
+                            <p>What future am I careening towards, oh, great chosen seer</p>
+                            <p class="charName">GABE</p>
+                            <p>Surprisingly good job</p>
+                            <p class="charName">DRAGON</p>
+                            <p>Are you gonna fucking -</p>
+                            <p class="charName">GABE</p>
+                            <p style="line-height: 0px;">YOU’RE CAREENING towards something…</p>
+                            <p style="line-height: 0px;">sad</p>
+                            <p style="position: relative; top: 70px; margin-bottom: 70px;">You’re like a CFA or something.  You make good money, but it’s just data entry and looking at spreadsheets and explaining your spreadsheets to other people.  You like some of your coworkers, but most of them just annoy the shit out of you.  But you moved to like Boston, or a neighborhood outside of Boston, but you still say you live in Boston, and they’re really the only people you know so you like golf with them on the weekends.  And you like it.  You get buzzed off of beer and the like little airplane bottles of Jack that you all keep in your golf bags next to your tees.  You play a stupid game of if you accidentally pull a bottle instead of a tee, you have to take it like a shot.  You rag on the caddies but tip them well and buy them drinks after and then you drive home drunk.</p>
+                            <p>You’re engaged to this med school student brunette that you meet in a year or-</p>
+                            <p class="charName">DRAGON</p>
+                            <p>She hot?</p>
+                            <p class="charName">GABE</p>
+                            <p class="stageDirection">(you broke my reverie)</p>
+                            <p>Are you fucking for real right now?</p>
+                            <p class="charName">DRAGON</p>
+                            <p>Answer the question</p>
+                            <p class="charName">GABE</p>
+                            <p>Yeah she's hot</p>
+                            <p class="charName">DRAGON</p>
+                            <p>Nice</p>
+                            <p class="charName">GABE</p>
+                            <p class="stageDirection">(forcing reverie, then settling into it)</p>
+                            <div class="lines">
+                                <p>And sometimes you still see your frat brothers, like you’ll go on a ski trip or something, but it’s not the same.</p>
+                                <p>And that’ll be it.  Just work and golf and a sports bar every other weekend.</p>
+                             </div>
+                            <p class="charName">DRAGON</p>
+                            <p>I dunno, sounds nice</p>
+                            <p class="charName">GABE</p>
+                            <p>Really?</p>
+                            <p class="charName">DRAGON</p>
+                            <div class="lines">
+                                <p>I got a good job, someone who loves me, and friends</p>
+                                <p>And you’ll be there too</p>
+                                <p>We’ll still see each other and kick it or I’ll hit you up on the phone and we’ll play a game or something</p> 
+                                <p>You’ll visit and I’ll take you golfing</p>
+                            </div>
+                            <p class="charName">GABE</p>
+                            <p class="stageDirection">(no drama)</p>
+                            <p>Over my dead rottng corpse</p>
+                            <p class="charName">DRAGON</p>
+                            <p>You like to get daydrunk</p>
+                            <p class="charName">GABE</p>
+                            <p>Not like that</p>
+                            <p class="charName">DRAGON</p>
+                            <p>So why's it sad?</p>
+                            <p class="charName">GABE</p>
+                            <p>I dunno, I just - want something more for you?</p>
+                            <p class="charName">DRAGON</p>
+                            <div class="lines">
+                                <p style="position: relative; top: 70px; margin-bottom: 90px;">You're in my arms</p>
+                                <p>Asleep against my chest</p>
+                                <p>I breathe in</p>
+                                <p>Preparing to wake you</p>
+                                <p>To brush away the dream</p>
+                                <p>But then you smile</p>
+                            </div>
+                            <p>We’re in a small but extremely cozy and well furnished flat in East London.  We’ll move further out of the city in a few years just like your parents did when they were pregnant with Ava.  You’ll work at the National and pretend to hate it.  You’ll come home every day with a new mortal enemy from the Marketing department and we’ll curse her name and drink to her downfall.  You’ll take me to so. many. plays. and it’ll be hard at first, but we’ll see a performance of Hamlet with Andrew Scott and I’ll turn to you wide eyed in the audience and whisper excitedly “I get it” and Shakespeare will suddenly make sense to me and I’ll get emotional and begin to care very deeply and read them all and complain that I just wish Andrew Scott could read them to me and make them make sense.</p>
+                            <p style="position: relative; bottom: 20px; margin-bottom: 70px;">We’ll play video games late into the night, drunk on wine and your laughter, and wake up for work late and hungover, tangled up in each other.  I fly us to Paris and Barcelona and Amsterdam and Sardina, because I still make a lot of money, but we spend it doing things and being in places together.  And I learn to sew and make things like candles and eggs benedict on the weekends even though it upsets your stomach because it’s your favorite and you love the way it tastes.  And we keep learning.  And growing.  And changing.</p>
+                            <p class="stageDirection">(reverie)</p>
+                            <p class="stageDirection" style="line-height: 50px;">(Bang. Hard cut.)</p>
+                            <img src="https://i0.wp.com/scifanime.com/wp-content/uploads/2013/04/VlRvQl8.gif" style="width: 100%;">
+                        </div>
+                    <p style="text-align: right; font-size: 10px;">All images sourced from: scifianime.com</p>
                     <p>Book by Jasen Miyamoto, Music and Lyrics by Hannah Tobias, narrative collaborated on by both.</p>
                 </div>
         </main>
